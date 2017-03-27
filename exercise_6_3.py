@@ -46,7 +46,7 @@ def is_palindrome(word):
 
 def is_palindrome2(word):
     '''
-    using the method slice in string to show a string is not a palindrome
+    using the method slice in string to show that if a string is not a palindrome
     :param word:
     :return:
     '''
