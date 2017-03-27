@@ -44,6 +44,16 @@ def is_palindrome(word):
         return False
     return is_palindrome(middle_word)
 
+def is_palindrome2(word):
+    '''
+    using the method slice in string to show a string is not a palindrome
+    :param word:
+    :return:
+    '''
+    if word == word[::-1]:
+        return True
+    return False
+
 print(is_palindrome(''))
 print(is_palindrome('hhhahh'))
 print(is_palindrome('hhhahhh'))
